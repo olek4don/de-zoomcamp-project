@@ -1,0 +1,25 @@
+name: de-zoomcamp-project
+channels:
+  - conda-forge 
+  - defaults
+dependencies:
+  # Core Python
+  - python=3.11
+
+  # Core Conda dependencies (Alphabetical order for readability)
+  - black
+  - ipykernel
+  - jupyter
+  - kaggle         
+  - numpy
+  - pandas
+  - pip            
+  - pre-commit     
+  - psycopg2       
+  - pyyaml         
+  - sqlalchemy
+  - docker-compose 
+
+  # Pip dependencies (for packages not ideally suited for conda or specific needs)
+  - pip:
+    - docker       
