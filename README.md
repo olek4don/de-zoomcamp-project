@@ -48,7 +48,6 @@ The raw dataset will undergo the following cleaning steps:
 2. Standardize date formats to `YYYY-MM-DD`.
 3. Filter out irrelevant data (e.g., exclude doubles matches if focusing on singles).
 4. Normalize categorical fields (e.g., unify player names with consistent capitalization).
-
 ---
 
 ### Dashboard Metrics
@@ -59,7 +58,7 @@ The dashboard will include two tiles:
 
 ---
 
-### Scope Document Summary
+### Scope Phase Summary
 
 1. **Problem Statement**:
    - Analyze ATP tennis data to provide insights into player performance and trends.
@@ -78,6 +77,4 @@ The dashboard will include two tiles:
 
 ## Next Steps
 
-With Phase 1 completed, the next phase will focus on setting up the cloud infrastructure using Google Cloud Platform (GCP) and Terraform.
-
-
+With Phase 1 completed, the next phase will focus on Define the Project Scope and Data
